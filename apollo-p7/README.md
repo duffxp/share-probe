@@ -6,9 +6,6 @@ ro.product.system.model]: [apollo_p7]
 [ro.soc.model]: [H618]
 ```
 
-- Tested by:  Gabriel Quintana
-- Date:       10/11/24
-
 ---
 ### Description
 
@@ -22,13 +19,16 @@ ffmpeg -re -stream_loop -1 -i 'bbb-aac.mp4' -c copy -f mpegts 'udp:224.10.10.1:1
 ### Resume
 
 
-1. The TS file with `aac` codec worked normally (video and audio).
-You can check the ADB logs in: [aac](aac.txt)
-> The video looks strange at times, displaying green composites and frame breaks, apparently.
-> You can see the [video-sample-a](video-sample-a.jpg), [video-sample-b](video-sample-b.jpg) and [video-sample-c](video-sample-c.jpg)
+- The TS file with `aac` codec worked normally (video and audio).
+  - You can check the ADB logs in: [aac](aac.txt)
+- The stream with `mp2` codec played the video very well, but it did not play the audio. The message "there is no codec to support the audio track" appears.
+  - You can check the ADB logs in: [mp2](mp2.txt)
+- The stream with `ac3`, despite not showing the unsupported codec message, simply does not play the video or the audio. The image is completely frozen.
+  - You can check the ADB logs in: [ac3](ac3.txt)
 
-2. the stream with `mp2` codec played the video very well, but it did not play the audio. The message "there is no codec to support the audio track" appears.
-You can check the ADB logs in: [mp2](mp2.txt)
+---
+### Note
 
-3. The stream with `ac3`, despite not showing the unsupported codec message, simply does not play the video or the audio. The image is completely frozen.
-You can check the ADB logs in: [ac3](ac3.txt)
+About the test with `aac` codec, the video looks strange at times, displaying green composites and frame breaks, apparently.
+
+Please, check it out in [video-sample-a](video-sample-a.jpg), [video-sample-b](video-sample-b.jpg) and [video-sample-c](video-sample-c.jpg)
