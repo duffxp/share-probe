@@ -1,0 +1,664 @@
+--------- beginning of main
+10-11 14:25:44.854   449   756 D GPIO    : setFD655 14251
+10-11 14:25:45.855   449   756 D GPIO    : setFD655 14251
+10-11 14:25:46.855   449   756 D GPIO    : setFD655 14251
+10-11 14:25:47.854   449   756 D GPIO    : setFD655 14251
+10-11 14:25:48.855   449   756 D GPIO    : setFD655 14251
+10-11 14:25:49.298  3696  3722 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-11 14:25:49.312  3696  3722 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-11 14:25:49.855   449   756 D GPIO    : setFD655 14251
+10-11 14:25:50.855   449   756 D GPIO    : setFD655 14251
+10-11 14:25:51.855   449   756 D GPIO    : setFD655 14251
+10-11 14:25:52.856   449   756 D GPIO    : setFD655 14251
+10-11 14:25:53.855   449   756 D GPIO    : setFD655 14251
+10-11 14:25:54.856   449   756 D GPIO    : setFD655 14251
+10-11 14:25:55.856   449   756 D GPIO    : setFD655 14251
+10-11 14:25:56.856   449   756 D GPIO    : setFD655 14251
+10-11 14:25:57.856   449   756 D GPIO    : setFD655 14251
+10-11 14:25:58.855   449   756 D GPIO    : setFD655 14251
+10-11 14:25:59.856   449   756 D GPIO    : setFD655 14251
+10-11 14:26:00.856   449   756 D GPIO    : setFD655 14261
+10-11 14:26:01.057   449   449 D NetworkTimeUpdateService: isWirePluggedIn rrrrrrqqqyyyyyyyy===true
+10-11 14:26:01.058   449   449 D GPIO    : setFD655 14261
+10-11 14:26:01.061   449   449 D GPIO    : setNetworkLedOn true
+10-11 14:26:01.061   449   449 D NetworkTimeUpdateService: ethernet is connected
+--------- beginning of system
+10-11 14:26:01.061   449   449 W Looper  : Slow dispatch took 1057ms main h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@9fc489c m=0
+10-11 14:26:01.061   449   449 D GPIO    : setFD655 14261
+10-11 14:26:01.066   449   449 W Looper  : Slow delivery took 1060ms main h=android.app.ActivityThread$H c=android.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@332a2a5 m=0
+10-11 14:26:01.857   449   756 D GPIO    : setFD655 14261
+10-11 14:26:02.858   449   756 D GPIO    : setFD655 14261
+10-11 14:26:03.532   449   569 D TvWindowManager: key event key = KEYCODE_DPAD_CENTER
+10-11 14:26:03.532   449   569 D WindowManager: interceptKeyTq keycode=23 interactive=true keyguardActive=false policyFlags=22000000
+10-11 14:26:03.533   449   568 D GpioService: mFlickerEnable = true
+10-11 14:26:03.533   449   568 D WindowManager: interceptKeyTi keyCode=23 down=true repeatCount=0 keyguardOn=false canceled=false
+10-11 14:26:03.534   449   449 W Looper  : Drained
+10-11 14:26:03.584   449   449 D GPIO    : setNormalLedOn true
+10-11 14:26:03.585   449   449 D GPIO    : setStandbyLedOn false
+10-11 14:26:03.637   449   449 D GPIO    : setNormalLedOn false
+10-11 14:26:03.638   449   449 D GPIO    : setStandbyLedOn false
+10-11 14:26:03.682   449   568 D GpioService: mFlickerEnable = true
+10-11 14:26:03.683   449   568 D WindowManager: interceptKeyTi keyCode=23 down=true repeatCount=0 keyguardOn=false canceled=false
+10-11 14:26:03.733   449   449 D GPIO    : setNormalLedOn true
+10-11 14:26:03.735   449   449 D GPIO    : setStandbyLedOn false
+10-11 14:26:03.748   449   569 D TvWindowManager: key event key = KEYCODE_DPAD_CENTER
+10-11 14:26:03.748   449   569 D WindowManager: interceptKeyTq keycode=23 interactive=true keyguardActive=false policyFlags=22000000
+10-11 14:26:03.752   449   568 D WindowManager: interceptKeyTi keyCode=23 down=false repeatCount=0 keyguardOn=false canceled=false
+10-11 14:26:03.769  5636  5654 I OpenGLRenderer: Davey! duration=9223369966894ms; Flags=2, FrameTimelineVsyncId=16466, IntendedVsync=2069960423886, Vsync=2069960423886, InputEventId=0, HandleInputStart=2069960423886, AnimationStart=2069960423886, PerformTraversalsStart=2069960423886, DrawStart=2069960423886, FrameDeadline=2069977090552, FrameInterval=0, FrameStartTime=16666666, SyncQueued=2069965190361, SyncStart=2069965195319, IssueDrawCommandsStart=2069965595236, SwapBuffers=2069972998444, FrameCompleted=9223372036854775807, DequeueBufferDuration=56500, QueueBufferDuration=2502667, GpuCompleted=9223372036854775807, SwapBuffersCompleted=2069977513319, DisplayPresentTime=0, 
+10-11 14:26:03.773   449  3687 I ActivityTaskManager: START u0 {act=androidx.media3.demo.main.action.VIEW dat=udp://@224.10.10.1:1234 cmp=androidx.media3.demo.main/.PlayerActivity (has extras)} from uid 10105
+10-11 14:26:03.782   266   266 I AW_PowerHAL: Power setMode: LAUNCH to: 1
+10-11 14:26:03.786   449   449 D GPIO    : setNormalLedOn false
+10-11 14:26:03.788  5636  5654 I OpenGLRenderer: Davey! duration=9223369966877ms; Flags=2, FrameTimelineVsyncId=16468, IntendedVsync=2069977090552, Vsync=2069977090552, InputEventId=0, HandleInputStart=2069977090552, AnimationStart=2069977090552, PerformTraversalsStart=2069977090552, DrawStart=2069977090552, FrameDeadline=2070010423884, FrameInterval=0, FrameStartTime=16666666, SyncQueued=2069981294777, SyncStart=2069981300986, IssueDrawCommandsStart=2069981482861, SwapBuffers=2069986767611, FrameCompleted=9223372036854775807, DequeueBufferDuration=58375, QueueBufferDuration=1702750, GpuCompleted=9223372036854775807, SwapBuffersCompleted=2069990877402, DisplayPresentTime=0, 
+10-11 14:26:03.791   449   449 D GPIO    : setStandbyLedOn false
+10-11 14:26:03.812   449  3687 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (1990041)
+10-11 14:26:03.831   266   266 I AW_PowerHAL: cur-mode:LAUNCH
+10-11 14:26:03.845   449   492 W ProcessStats: Tracking association SourceState{8635304 com.qstar.application/10101 BTopFgs #5100} whose proc state 2 is better than process ProcessState{8dd69a9 com.qstar.apps.ota/1000 pkg=com.qstar.apps.ota} proc state 3 (2 skipped)
+10-11 14:26:03.847   449   449 D GPIO    : setNormalLedOn true
+10-11 14:26:03.849   449   449 D GPIO    : setStandbyLedOn false
+10-11 14:26:03.857   449   756 D GPIO    : setFD655 14261
+10-11 14:26:03.926   656   656 D TvPipController: onTaskStackChanged()
+10-11 14:26:04.240  5636  5636 W libc    : Access denied finding property "vendor.display-size"
+10-11 14:26:04.259  5636  5636 I ExoPlayerImpl: Init a3214be [AndroidXMedia3/1.4.1] [apollo-p7, USN Android, Coolech, 31]
+10-11 14:26:04.279  5636  5636 W libc    : Access denied finding property "vendor.display-size"
+10-11 14:26:04.300  5636  5636 D EventLogger: playWhenReady [eventTime=0.00, mediaPos=0.00, window=0, true, USER_REQUEST]
+10-11 14:26:04.312  5636  5636 D EventLogger: surfaceSize [eventTime=0.02, mediaPos=0.00, window=0, 0, 0]
+10-11 14:26:04.326  5636  5636 D EventLogger: timeline [eventTime=0.03, mediaPos=0.00, window=0, periodCount=1, windowCount=1, reason=PLAYLIST_CHANGED
+10-11 14:26:04.326  5636  5636 D EventLogger:   period [?]
+10-11 14:26:04.327  5636  5636 D EventLogger:   window [?, seekable=false, dynamic=true]
+10-11 14:26:04.327  5636  5636 D EventLogger: ]
+10-11 14:26:04.329  5636  5636 D EventLogger: mediaItem [eventTime=0.03, mediaPos=0.00, window=0, reason=PLAYLIST_CHANGED]
+10-11 14:26:04.337   449  3687 I MediaFocusControl: requestAudioFocus() from uid/pid 10105/5636 AA=USAGE_MEDIA/CONTENT_TYPE_UNKNOWN clientId=android.media.AudioManager@715a2bcandroidx.media3.exoplayer.AudioFocusManager$AudioFocusListener@f1ce46c callingPack=androidx.media3.demo.main req=1 flags=0x0 sdk=34
+10-11 14:26:04.339   449  3687 I AudioService.FadeOutManager: unfadeOutUid() uid:10105
+10-11 14:26:04.344  5636  5636 D EventLogger: state [eventTime=0.05, mediaPos=0.00, window=0, BUFFERING]
+10-11 14:26:04.402  5636  5636 I Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+10-11 14:26:04.503  5636  5636 D EventLogger: surfaceSize [eventTime=0.21, mediaPos=0.00, window=0, 1280, 720]
+10-11 14:26:04.517   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:3686400 fmt:1 if:0 af:1 usg:20000b00 fg:00000004
+10-11 14:26:04.540  5636  5636 D EventLogger: loading [eventTime=0.24, mediaPos=0.00, window=0, period=0, true]
+10-11 14:26:04.546  5636  5636 D EventLogger: timeline [eventTime=0.25, mediaPos=0.00, window=0, period=0, periodCount=1, windowCount=1, reason=SOURCE_UPDATE
+10-11 14:26:04.546  5636  5636 D EventLogger:   period [?]
+10-11 14:26:04.547  5636  5636 D EventLogger:   window [?, seekable=false, dynamic=false]
+10-11 14:26:04.547  5636  5636 D EventLogger: ]
+10-11 14:26:04.549   449   493 I ActivityTaskManager:  check home wait onWindowsDrawn  
+10-11 14:26:04.556   449   489 I ActivityTaskManager: Displayed androidx.media3.demo.main/.PlayerActivity: +776ms
+10-11 14:26:04.586  5636  5654 I OpenGLRenderer: Davey! duration=9223369966078ms; Flags=2, FrameTimelineVsyncId=16577, IntendedVsync=2070776652690, Vsync=2070776652690, InputEventId=0, HandleInputStart=2070776652690, AnimationStart=2070776652690, PerformTraversalsStart=2070776652690, DrawStart=2070776652690, FrameDeadline=2070809986022, FrameInterval=0, FrameStartTime=16666666, SyncQueued=2070781842778, SyncStart=2070781846403, IssueDrawCommandsStart=2070781988111, SwapBuffers=2070786985194, FrameCompleted=9223372036854775807, DequeueBufferDuration=42875, QueueBufferDuration=1112084, GpuCompleted=9223372036854775807, SwapBuffersCompleted=2070789517986, DisplayPresentTime=0, 
+10-11 14:26:04.603   966   966 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3466 
+10-11 14:26:04.604   966   966 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():2045 
+10-11 14:26:04.607   966   966 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():38 Notify device unlocked.
+10-11 14:26:04.614   266   266 I AW_PowerHAL: Power setMode: LAUNCH to: 0
+10-11 14:26:04.621   266   266 I AW_PowerHAL: cur-mode:SCHEDUTIL
+10-11 14:26:04.857   449   756 D GPIO    : setFD655 14261
+10-11 14:26:05.468   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:3686400 fmt:1 if:0 af:1 usg:20000b00 fg:00000004
+10-11 14:26:05.858   449   756 D GPIO    : setFD655 14261
+10-11 14:26:06.795   449  1229 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+10-11 14:26:06.859   449   756 D GPIO    : setFD655 14261
+10-11 14:26:07.858   449   756 D GPIO    : setFD655 14261
+10-11 14:26:08.401   273   545 I hash_map_utils: system/bt/osi/src/hash_map_utils.cc:81 hash_map_utils_dump_string_keys_string_values: key: 'offloadVariableRateSupported' value: ''
+10-11 14:26:08.402  5636  5636 D EventLogger: timeline [eventTime=4.11, mediaPos=0.00, window=0, period=0, periodCount=1, windowCount=1, reason=SOURCE_UPDATE
+10-11 14:26:08.403  5636  5636 D EventLogger:   period [?]
+10-11 14:26:08.404  5636  5636 D EventLogger:   window [?, seekable=false, dynamic=false]
+10-11 14:26:08.404  5636  5636 D EventLogger: ]
+10-11 14:26:08.442  5636  5636 D EventLogger: videoEnabled [eventTime=4.15, mediaPos=0.00, window=0, period=0]
+10-11 14:26:08.444  5636  6180 I DMCodecAdapterFactory: Creating an asynchronous MediaCodec adapter for track type video
+10-11 14:26:08.446  5636  5636 D EventLogger: audioEnabled [eventTime=4.15, mediaPos=0.00, window=0, period=0]
+10-11 14:26:08.452  5636  5636 D EventLogger: tracks [eventTime=4.16, mediaPos=0.00, window=0, period=0
+10-11 14:26:08.453  5636  5636 D EventLogger:   group [
+10-11 14:26:08.455  5636  5636 D EventLogger:     [X] Track:0, id=1/256, mimeType=video/avc, codecs=avc1.4D401F, res=1280x720, color=NA/NA/NA/8/8, supported=YES
+10-11 14:26:08.456  5636  5636 D EventLogger:   ]
+10-11 14:26:08.457  5636  5636 D EventLogger:   group [
+10-11 14:26:08.458  5636  5636 D EventLogger:     [X] Track:0, id=1/257, mimeType=audio/mp4a-latm, codecs=mp4a.40.2, channels=6, sample_rate=48000, language=und, supported=YES
+10-11 14:26:08.460  5636  5636 D EventLogger:   ]
+10-11 14:26:08.461  5636  5636 D EventLogger: ]
+10-11 14:26:08.467  5636  6184 I OMXClient: IOmx service obtained
+10-11 14:26:08.468   343   343 I OMXStore: makeComponentInstance(OMX.allwinner.video.decoder.avc) in android.hardwar process
+10-11 14:26:08.479  5636  5636 D EventLogger: downstreamFormat [eventTime=4.18, mediaPos=0.00, window=0, period=0, id=1/256, mimeType=video/avc, codecs=avc1.4D401F, res=1280x720, color=NA/NA/NA/8/8]
+10-11 14:26:08.485   343   343 D cedarc  : <CdcIniParserInit:41>: load conf file /vendor/etc/cedarc.conf ok!
+10-11 14:26:08.485   343   343 D cedarc  : <AwOmxComponentInit:38>: OMXCORE: aw_omx_component_init ec05c000
+10-11 14:26:08.485   343   343 D omx_vdec: <__AwOmxVdecInit:1165>: ++++++++++++++++++++++omx begin++++++++++++++++++
+10-11 14:26:08.486   343   343 D omx_vdec: <__AwOmxVdecInit:1166>: name = OMX.allwinner.video.decoder.avc
+10-11 14:26:08.486   343   343 I omx_vdec_aw: <OmxDecoderCreate:3783>: OmxDecoderCreate.
+10-11 14:26:08.486   343   343 D ionAlloc: <__GetIonMemOpsS:833>: *** get __GetIonMemOpsS ***
+10-11 14:26:08.487   343   343 D cedarc  : <CdcMessageQueueCreate:51>: nMessageSize = 20
+10-11 14:26:08.488   343   343 D cedarc  : <AwOmxComponentSetCallbacks:331>: OMXCORE: aw_omx_component_set_callbacks ec05c000, eb0330c4 , ec0bc3c0
+10-11 14:26:08.489   343   343 D omx_vdec: <__AwOmxVdecSetCallbacks:1934>: ===== vdec set callbacks
+10-11 14:26:08.500  5636  6183 I MediaCodec: MediaCodec will operate in async mode
+10-11 14:26:08.503  5636  6183 D SurfaceUtils: connecting to surface 0xc736cc08, reason connectToSurface
+10-11 14:26:08.504  5636  6183 I MediaCodec: [OMX.allwinner.video.decoder.avc] setting surface generation to 5771267
+10-11 14:26:08.504  5636  6183 D SurfaceUtils: disconnecting from surface 0xc736cc08, reason connectToSurface(reconnect)
+10-11 14:26:08.504  5636  6183 D SurfaceUtils: connecting to surface 0xc736cc08, reason connectToSurface(reconnect)
+10-11 14:26:08.505   343   343 W omx_vdec: <__AwOmxVdecSetParameter:1566>: Set Parameter called in valid state
+10-11 14:26:08.505   343   343 E omx_vdec: <__AwOmxVdecSetConfig:1697>: [40;31mTODO:set OMX_IndexConfigLowLatency ![0m
+10-11 14:26:08.507   343   343 W omx_vdec: <__AwOmxVdecGetExtensionIndex:1741>: GetExtensionIndex OMX.google.android.index.storeANWBufferInMetadata, err [0x80001001].
+10-11 14:26:08.507   343   343 W omx_vdec_aw: <__anSetExtPara:3004>: Setparameter: unknown param 2131755011
+10-11 14:26:08.507   343   343 W OMXNodeInstance: [0xec05c000:allwinner.decoder.avc] component does not support metadata mode; using fallback
+10-11 14:26:08.507  5636  6184 E ACodec  : [OMX.allwinner.video.decoder.avc] setPortMode on output to DynamicANWBuffer failed w/ err -1010
+10-11 14:26:08.508   343   343 W omx_vdec_aw: <__anGetExtPara:2911>: get_parameter: unknown param 6f600011
+10-11 14:26:08.508   343   343 E OMXNodeInstance: getParameter(0xec05c000:allwinner.decoder.avc, ??(0x6f600011)) ERROR: UnsupportedIndex(0x8000101a)  (Diablo getParameter:700)
+10-11 14:26:08.509   343   343 W omx_vdec: <__AwOmxVdecGetExtensionIndex:1741>: GetExtensionIndex OMX.google.android.index.storeANWBufferInMetadata, err [0x80001001].
+10-11 14:26:08.509   343   343 W omx_vdec_aw: <__anSetExtPara:3004>: Setparameter: unknown param 2131755011
+10-11 14:26:08.509   343   343 W OMXNodeInstance: [0xec05c000:allwinner.decoder.avc] component does not support metadata mode; using fallback
+10-11 14:26:08.512   343   343 D omx_vdec: <AwOmxVdecPortSetDefinitioin:201>: port:<<<<<<<<in,nBufferCountActual = 2, mBufferCntActual = 2
+10-11 14:26:08.513   343   343 D omx_vdec: <AwOmxVdecPortSetDefinitioin:201>: port:>>>>>>>out,nBufferCountActual = 4, mBufferCntActual = 4
+10-11 14:26:08.513   343   343 W omx_vdec: <__AwOmxVdecSetParameter:1537>: set_parameter, OMX_IndexParamPortDefinition, OutPortDef :change nBufferSize[38016] to [1382400] to suit frame width[1280] and height[720]
+10-11 14:26:08.515   343   343 W omx_vdec: <__AwOmxVdecGetExtensionIndex:1741>: GetExtensionIndex OMX.google.android.index.storeANWBufferInMetadata, err [0x80001001].
+10-11 14:26:08.515   343   343 W omx_vdec: <__AwOmxVdecGetExtensionIndex:1741>: GetExtensionIndex OMX.google.android.index.configureVideoTunnelMode, err [0x80001001].
+10-11 14:26:08.515   343   343 W omx_vdec: <__AwOmxVdecGetExtensionIndex:1741>: GetExtensionIndex OMX.google.android.index.useAndroidNativeBuffer, err [0x80001001].
+10-11 14:26:08.515   343   343 D omx_vdec_aw: <__anSetExtConfig:3098>: set ColorAspects: R:2, P:1, M:1, T:3
+10-11 14:26:08.517   343   343 W omx_vdec: <__AwOmxVdecGetExtensionIndex:1741>: GetExtensionIndex OMX.google.android.index.describeHDR10PlusInfo, err [0x80001001].
+10-11 14:26:08.519   343   343 D omx_vdec_aw: <__anSetExtConfig:3118>: get_config: unknown param 1870659586
+10-11 14:26:08.519   343   343 E OMXNodeInstance: setConfig(0xec05c000:allwinner.decoder.avc, ConfigPriority(0x6f800002)) ERROR: UnsupportedIndex(0x8000101a)  (Diablo setConfig:772)
+10-11 14:26:08.520  5636  6184 I ACodec  : codec does not support config priority (err -1010)
+10-11 14:26:08.521   343   343 D omx_vdec_aw: <__anGetExtConfig:3061>: get_config: unknown param 1863319556
+10-11 14:26:08.521   343   343 E OMXNodeInstance: getConfig(0xec05c000:allwinner.decoder.avc, ConfigAndroidVendorExtension(0x6f100004)) ERROR: UnsupportedIndex(0x8000101a)  (Diablo getConfig:748)
+10-11 14:26:08.522   343   343 W omx_vdec: <__AwOmxVdecGetConfig:1640>: +++++ get display crop: top[0],left[0],width[1280],height[720]
+10-11 14:26:08.522   343   343 D omx_vdec_aw: <__anSetExtConfig:3098>: set ColorAspects: R:2, P:1, M:1, T:3
+10-11 14:26:08.523   343   343 D omx_vdec_aw: <__anGetExtConfig:3038>: get ColorAspects: R:0, P:0, M:0, T:0
+10-11 14:26:08.524   343   343 D omx_vdec_aw: <__anGetExtConfig:3038>: get ColorAspects: R:0, P:0, M:0, T:0
+10-11 14:26:08.524   343   343 E OMXNodeInstance: getConfig(0xec05c000:allwinner.decoder.avc, ??(0x7f100007)) ERROR: UnsupportedSetting(0x80001019)  (Diablo getConfig:748)
+10-11 14:26:08.524  5636  6184 W ColorUtils: expected specified color aspects (0:0:0:0)
+10-11 14:26:08.527  5636  6180 D MediaCodec: keep callback message for reclaim
+10-11 14:26:08.528   343  6185 D omx_vdec: <controlSetState:438>: current state:OMX_StateLoaded, target state:OMX_StateIdle
+10-11 14:26:08.528   343  6185 D omx_vdec: <doStateWaitforResources2Idle:648>: bEnabled[1],[1],bPopulated[0],[0]
+10-11 14:26:08.531  5636  6181 W PesReader: Unexpected start code prefix: 5625831
+10-11 14:26:08.533   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: <<<<<<<<in port add buffer: 0xe891c140
+10-11 14:26:08.535   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: <<<<<<<<in port add buffer: 0xe7d1bac0
+10-11 14:26:08.536   343   364 W omx_vdec: <__AwOmxVdecGetExtensionIndex:1741>: GetExtensionIndex OMX.google.android.index.AndroidNativeBufferConsumerUsage, err [0x80001001].
+10-11 14:26:08.537   343   364 D omx_vdec_aw: <__anGetExtPara:2895>:  ===== get usage: 400400
+10-11 14:26:08.537  5636  6184 D SurfaceUtils: disconnecting from surface 0xc736cc08, reason setNativeWindowSizeFormatAndUsage
+10-11 14:26:08.538  5636  6184 D SurfaceUtils: connecting to surface 0xc736cc08, reason setNativeWindowSizeFormatAndUsage
+10-11 14:26:08.538  5636  6184 D SurfaceUtils: set up nativeWindow 0xc736cc08 for 1280x720, color 0x32315659, rotation 0, usage 0x402d00
+10-11 14:26:08.538   343   364 D omx_vdec: <AwOmxVdecPortSetDefinitioin:201>: port:>>>>>>>out,nBufferCountActual = 8, mBufferCntActual = 4
+10-11 14:26:08.538   343  6185 D omx_vdec: <doStateWaitforResources2Idle:648>: bEnabled[1],[1],bPopulated[1],[0]
+10-11 14:26:08.539   343   364 D omx_vdec: <AwOmxVdecPortSetDefinitioin:216>: ****port, extbuf:4
+10-11 14:26:08.539   343   364 D omx_vdec: <AwOmxVdecPortSetDefinitioin:227>: PORT:>>>>>>>out, x allocate 8 buffers.
+10-11 14:26:08.540   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:1382464 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.542   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec05ff00
+10-11 14:26:08.543   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:1382464 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.545   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb000
+10-11 14:26:08.546   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:1382464 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.548   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb100
+10-11 14:26:08.549   343  6185 D omx_vdec: <doStateWaitforResources2Idle:648>: bEnabled[1],[1],bPopulated[1],[0]
+10-11 14:26:08.549   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:1382464 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.551   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb200
+10-11 14:26:08.552   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:1382464 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.553   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb300
+10-11 14:26:08.555   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:1382464 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.556   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb400
+10-11 14:26:08.557   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:1382464 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.559   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb500
+10-11 14:26:08.559   343  6185 D omx_vdec: <doStateWaitforResources2Idle:648>: bEnabled[1],[1],bPopulated[1],[0]
+10-11 14:26:08.560   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:1382464 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.562   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb600
+10-11 14:26:08.563   332  2638 W ResourceManagerService: Ignoring request to add new resource entry with value <= 0
+10-11 14:26:08.568  5636  5636 D EventLogger: videoDecoderInitialized [eventTime=4.27, mediaPos=0.00, window=0, period=0, OMX.allwinner.video.decoder.avc]
+10-11 14:26:08.569   343  6185 D omx_vdec: <doStateWaitforResources2Idle:648>: bEnabled[1],[1],bPopulated[1],[1]
+10-11 14:26:08.569  5636  6180 I DMCodecAdapterFactory: Creating an asynchronous MediaCodec adapter for track type audio
+10-11 14:26:08.569   343  6185 D omx_vdec: <controlSetState:459>: Transit current state:OMX_StateLoaded --> target state:OMX_StateIdle --OK!
+10-11 14:26:08.571   343  6185 D omx_vdec: <controlSetState:438>: current state:OMX_StateIdle, target state:OMX_StateExecuting
+10-11 14:26:08.571   343  6185 D omx_vdec: <controlSetState:459>: Transit current state:OMX_StateIdle --> target state:OMX_StateExecuting --OK!
+10-11 14:26:08.572  5636  5636 D EventLogger: videoInputFormat [eventTime=4.28, mediaPos=0.00, window=0, period=0, id=1/256, mimeType=video/avc, codecs=avc1.4D401F, res=1280x720, color=NA/NA/NA/8/8]
+10-11 14:26:08.575  5636  6189 D CCodec  : allocate(c2.android.aac.decoder)
+10-11 14:26:08.576  5636  5636 D EventLogger: downstreamFormat [eventTime=4.28, mediaPos=0.00, window=0, period=0, id=1/257, mimeType=audio/mp4a-latm, codecs=mp4a.40.2, channels=6, sample_rate=48000, language=und]
+10-11 14:26:08.577   350   891 V C2Store : in init
+10-11 14:26:08.577   350   891 V C2Store : loading dll
+10-11 14:26:08.587  5636  6189 I CCodec  : Created component [c2.android.aac.decoder]
+10-11 14:26:08.587  5636  6189 D CCodecConfig: read media type: audio/mp4a-latm
+10-11 14:26:08.592  5636  6189 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+10-11 14:26:08.593  5636  6189 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+10-11 14:26:08.594  5636  6189 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+10-11 14:26:08.596  5636  6189 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+10-11 14:26:08.597  5636  6189 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+10-11 14:26:08.597  5636  6189 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+10-11 14:26:08.598  5636  6189 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+10-11 14:26:08.605  5636  6189 I CCodecConfig: query failed after returning 19 values (BAD_INDEX)
+10-11 14:26:08.606  5636  6189 D CCodecConfig: c2 config diff is Dict {
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::u32 coded.aac-packaging.value = 0
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::u32 coded.pl.level = 0
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::u32 coded.pl.profile = 8192
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::i32 coding.drc.album-mode.value = 0
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::float coding.drc.attenuation-factor.value = 1
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::float coding.drc.boost-factor.value = 1
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::i32 coding.drc.compression-mode.value = 3
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::i32 coding.drc.effect-type.value = 3
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::float coding.drc.encoded-level.value = 0.25
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::float coding.drc.reference-level.value = -16
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 8192
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   string input.media-type.value = "audio/mp4a-latm"
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::u32 output.delay.value = 2
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::float output.drc.output-loudness.value = 0.25
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   string output.media-type.value = "audio/raw"
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::u32 raw.max-channel-count.value = 8
+10-11 14:26:08.606  5636  6189 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+10-11 14:26:08.606  5636  6189 D CCodecConfig: }
+10-11 14:26:08.610  5636  6189 I MediaCodec: MediaCodec will operate in async mode
+10-11 14:26:08.611  5636  6189 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+10-11 14:26:08.612  5636  6189 D CCodecConfig: no c2 equivalents for log-session-id
+10-11 14:26:08.612  5636  6189 D CCodecConfig: no c2 equivalents for flags
+10-11 14:26:08.614  5636  6189 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-count.value = 6
+10-11 14:26:08.614  5636  6189 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+10-11 14:26:08.616  5636  6189 W Codec2Client: query -- param skipped: index = 1107298332.
+10-11 14:26:08.616  5636  6189 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-drc-album-mode = 0
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-drc-boost-level = 127
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-drc-cut-level = 127
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-drc-effect-type = 3
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-encoded-target-level = -1
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-max-output-channel_count = 8
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-target-ref-level = 64
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t bitrate = 64000
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t channel-count = 6
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t level = 0
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t max-input-size = 8192
+10-11 14:26:08.616  5636  6189 D CCodec  :   string mime = "audio/mp4a-latm"
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t profile = 2
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t sample-rate = 48000
+10-11 14:26:08.616  5636  6189 D CCodec  : }
+10-11 14:26:08.616  5636  6189 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-drc-album-mode = 0
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-drc-boost-level = 127
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-drc-cut-level = 127
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-drc-effect-type = 3
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-drc-output-loudness = -1
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-encoded-target-level = -1
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-max-output-channel_count = 8
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t aac-target-ref-level = 64
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t channel-count = 6
+10-11 14:26:08.616  5636  6189 D CCodec  :   string mime = "audio/raw"
+10-11 14:26:08.616  5636  6189 D CCodec  :   int32_t sample-rate = 48000
+10-11 14:26:08.616  5636  6189 D CCodec  : }
+10-11 14:26:08.617  5636  6189 I CCodecConfig: query failed after returning 19 values (BAD_INDEX)
+10-11 14:26:08.620  5636  6180 D MediaCodec: keep callback message for reclaim
+10-11 14:26:08.622  5636  6189 W Codec2Client: query -- param skipped: index = 1342179345.
+10-11 14:26:08.622  5636  6189 W Codec2Client: query -- param skipped: index = 2415921170.
+10-11 14:26:08.622  5636  6189 W Codec2Client: query -- param skipped: index = 1610614798.
+10-11 14:26:08.624  5636  6189 D CCodecBufferChannel: [c2.android.aac.decoder#762] Created input block pool with allocatorID 16 => poolID 18 - OK (0)
+10-11 14:26:08.625   350   891 D BufferPoolAccessor2.0: bufferpool2 0xe92e0b98 : 0(0 size) total buffers - 0(0 size) used buffers - 1151/1155 (recycle/alloc) - 7/1155 (fetch/transfer)
+10-11 14:26:08.625   350   891 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xe92e0b98 cached: 0/0M, 0/0% in use; allocs: 1155, 100% recycled; transfers: 1155, 99% unfetched
+10-11 14:26:08.627  5636  6132 D BufferPoolAccessor2.0: bufferpool2 0xf2676058 : 0(0 size) total buffers - 0(0 size) used buffers - 1154/1164 (recycle/alloc) - 10/1159 (fetch/transfer)
+10-11 14:26:08.627  5636  6189 I CCodecBufferChannel: [c2.android.aac.decoder#762] Created output block pool with allocatorID 16 => poolID 28 - OK
+10-11 14:26:08.627  5636  6132 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xf2676058 cached: 0/0M, 0/0% in use; allocs: 1164, 99% recycled; transfers: 1159, 99% unfetched
+10-11 14:26:08.628  5636  6189 D CCodecBufferChannel: [c2.android.aac.decoder#762] Configured output block pool ids 28 => OK
+10-11 14:26:08.633   350  6190 D SimpleC2Component: Using output block pool with poolID 28 => got 28 - 0
+10-11 14:26:08.643  5636  5636 D EventLogger: audioDecoderInitialized [eventTime=4.35, mediaPos=0.00, window=0, period=0, c2.android.aac.decoder]
+10-11 14:26:08.645   350  6190 I C2SoftAacDec: Reconfiguring decoder: 0->48000 Hz, 0->6 channels
+10-11 14:26:08.651  5636  5636 D EventLogger: audioInputFormat [eventTime=4.36, mediaPos=0.00, window=0, period=0, id=1/257, mimeType=audio/mp4a-latm, codecs=mp4a.40.2, channels=6, sample_rate=48000, language=und]
+10-11 14:26:08.661   343  6185 D omx_vdec_aw: <anDealWithInitData:454>: ++++++++++++++++pCtx->mCodecSpecificDataLen[34]
+10-11 14:26:08.661   343  6185 D omx_vdec_aw: <__anPrepare:3140>: Prepare decoder begin!
+10-11 14:26:08.661   343  6185 I cedarc  : <log_set_level:43>: Set log level to 4 from /vendor/etc/cedarc.conf
+10-11 14:26:08.662   343  6185 W cedarc  : <log_set_level:50>: Reset log level to 3 from property of vendor.cedarc.debuglevel
+10-11 14:26:08.662   343  6185 E cedarc  : <DebugCheckConfig:360>: [40;31mnow cedarc log level:4[0m
+10-11 14:26:08.662   343  6185 I cedarc  : <CreateVideoDecoder:391>: CreateVideoDecoder p:0xebe58000
+10-11 14:26:08.662   343  6185 W libc    : Access denied finding property "sys.lmk_top_app"
+10-11 14:26:08.662   343  6185 D omx_vdec_aw: <__anPrepare:3208>: set nDisplayHoldingFrameBufferNum : 4, nDiBufferNum = 8
+10-11 14:26:08.662   343  6185 D omx_vdec_aw: <__anPrepare:3215>: ****mExtraOutBufferNum:4
+10-11 14:26:08.663   343  6185 D cedarc  : <LogVersionInfo:41>: 
+10-11 14:26:08.663   343  6185 D cedarc  : >>>>>>>>>>>>>>>>>>>>>>>>>>>>> Cedar Codec <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+10-11 14:26:08.663   343  6185 D cedarc  : tag   : CedarC-v1.3.0
+10-11 14:26:08.663   343  6185 D cedarc  : branch: stable_v1.3.0_common
+10-11 14:26:08.663   343  6185 D cedarc  : commit: 3b65bf7287aea23c2abfbc626c3f606e3b9def1c
+10-11 14:26:08.663   343  6185 D cedarc  : date  : Fri Nov 13 10:19:03 2020 +0800
+10-11 14:26:08.663   343  6185 D cedarc  : author: jenkins8080
+10-11 14:26:08.663   343  6185 D cedarc  : patch : 
+10-11 14:26:08.663   343  6185 D cedarc  : ----------------------------------------------------------------------
+10-11 14:26:08.663   343  6185 D cedarc  : <InitializeVideoDecoder:498>: *** pVconfig->nVeFreq = 0
+10-11 14:26:08.663   343  6185 D cedarc  : <InitializeVideoDecoder:565>: user not set veops, we get internal!
+10-11 14:26:08.663   343  6185 D cedarc  : <VeInitialize:1348>: ve init
+10-11 14:26:08.663   343  6185 W cedarc  : <getSocIdString:1187>: cannot open /dev/sunxi_soc_info, it maybe ok!
+10-11 14:26:08.663   343  6185 I cedarc  : <VeInitialize:1432>: *** ic_version = 0x3301000012011,
+10-11 14:26:08.663   343  6185 D cedarc  : <VeInitialize:1472>: *** nPhyOffset = 0x0
+10-11 14:26:08.663   343  6185 D cedarc  : <VeSetSpeed:1935>: *** set ve freq to 300 Mhz ***
+10-11 14:26:08.663   343  6185 D ionAlloc: <ion_alloc_open2:177>: pid: 343, g_context = 0xec1691c0 
+10-11 14:26:08.663   343  6185 D ionAlloc: <ion_alloc_open2:204>: ion alloc open ok
+10-11 14:26:08.663   343  6185 D cedarc  : <DecideStreamBufferSize:2283>: nBufferSize=6291456, p->vconfig.nVbvBufferSize=0
+10-11 14:26:08.663   343  6185 D cedarc  : <VideoEngineCreate:350>: *** pEngine->nIcVeVersion = 3301000012011, decIpVersion = 33010
+10-11 14:26:08.663   343  6185 D cedarc  : <VideoEngineCreate:414>: **************eCtlAfcbMode = 1
+10-11 14:26:08.664   343  6185 D cedarc  : <H264DecoderInit:239>:  get the nIcversion = 3301000012011, nDecIpVersion = 33010
+10-11 14:26:08.664   343  6185 D cedarc  : <GetSbmInterface:1755>: *********GetSbmInterface, nType=4
+10-11 14:26:08.664   343  6185 D cedarc  : <GetSbmInterfaceFrame:1712>: ******* sbm-type: Frame*******
+10-11 14:26:08.664   343  6185 D cedarc  : <SbmFrameInit:196>: ************pSbm->sbmInterface.bUseNewVeMemoryProgram=0
+10-11 14:26:08.655   343   343 W omx@1.0-service: type=1400 audit(0.0:79): avc: denied { read } for name="u:object_r:system_prop:s0" dev="tmpfs" ino=3882 scontext=u:r:mediacodec:s0 tcontext=u:object_r:system_prop:s0 tclass=file permissive=0
+10-11 14:26:08.666   343  6185 D cedarc  : <CdcMessageQueueCreate:51>: nMessageSize = 20
+10-11 14:26:08.667   343  6185 D omx_vdec: <onMessageReceived:879>: ********start***********
+10-11 14:26:08.667   343  6185 D omx_thread: <createThread:122>: +++++ self->mThread: 3869864416
+10-11 14:26:08.669   343  6185 D omx_thread: <OmxThread_Run:150>: thread submit start to run!
+10-11 14:26:08.669   343  6185 D omx_thread: <createThread:122>: +++++ self->mThread: 3868811744
+10-11 14:26:08.669   343  6185 D omx_thread: <OmxThread_Run:150>: thread decode start to run!
+10-11 14:26:08.670   343  6185 D omx_thread: <createThread:122>: +++++ self->mThread: 3867759072
+10-11 14:26:08.670   343  6185 D omx_thread: <OmxThread_Run:150>: thread drain start to run!
+10-11 14:26:08.671   343  6193 D cedarc  : <AvcSbmFrameCheckBitStreamType:286>: result: bStreamWithStartCode[1], with[1], whitout[0]
+10-11 14:26:08.674   343  6195 D cedarc  : <H264DecVuiParameters:341>: nFrameRate=25
+10-11 14:26:08.675   343  6195 D cedarc  : <H264ProcessExtraData2:559>: H264ProcessNaluUnit, bNeedFindSPS = 0, bNeedFindPPS = 0
+10-11 14:26:08.687   343  6195 D cedarc  : <H264DecodePictureScanType:2787>: here3:hCtx->bProgressice=1
+10-11 14:26:08.688   343  6195 D cedarc  : <H264ControlEnableAfbc:1077>: DecIpVersion:33010 afbc mode:1 width:1280 height:720
+10-11 14:26:08.688   343  6195 D cedarc  : <VeSetEnableAfbcFlag:1941>: **** VeSetEnableAfbcFlag: 0
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:201>: FbmCreate, total fbm number: 11, decoder needed: 2,  nWidth=1280, nHeight=720 nAlignStride = 32
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:362>: *** calcute nLower2BitBufOffset = 0(0.00), stride = 0
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:362>: *** calcute nLower2BitBufOffset = 0(0.00), stride = 0
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:362>: *** calcute nLower2BitBufOffset = 0(0.00), stride = 0
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:362>: *** calcute nLower2BitBufOffset = 0(0.00), stride = 0
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:362>: *** calcute nLower2BitBufOffset = 0(0.00), stride = 0
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:362>: *** calcute nLower2BitBufOffset = 0(0.00), stride = 0
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:362>: *** calcute nLower2BitBufOffset = 0(0.00), stride = 0
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:362>: *** calcute nLower2BitBufOffset = 0(0.00), stride = 0
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:362>: *** calcute nLower2BitBufOffset = 0(0.00), stride = 0
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:362>: *** calcute nLower2BitBufOffset = 0(0.00), stride = 0
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:362>: *** calcute nLower2BitBufOffset = 0(0.00), stride = 0
+10-11 14:26:08.688   343  6195 D fbm.c   : <FbmCreateBuffer:473>: *** finish fbmCreateBuffer
+10-11 14:26:08.688   343  6196 D omx_vdec_aw: <anGetVideoFbmBufInfo:699>: video buffer info: nWidth[1280],nHeight[736],nBufferCount[11],ePixelFormat[4]
+10-11 14:26:08.688   343  6196 D omx_vdec_aw: <anGetVideoFbmBufInfo:703>: video buffer info: nAlignValue[32],bProgressiveFlag[1],bIsSoftDecoderFlag[0]
+10-11 14:26:08.688   343  6196 D omx_vdec_aw: <anGetVideoFbmBufInfo:734>: **** nExtendFlag = 0
+10-11 14:26:08.688   343  6196 D omx_vdec_aw: <anGetVideoFbmBufInfo:744>: *** bBufferNumMatchFlag = 0
+10-11 14:26:08.688   343  6196 D omx_vdec_aw: <anGetVideoFbmBufInfo:761>: ************** port setting change ************
+10-11 14:26:08.688   343  6196 D omx_vdec_aw: <anGetVideoFbmBufInfo:767>: ****  buffer num: 8, 11; w&h: 1280, 720, 1280, 736
+10-11 14:26:08.688   343  6196 D omx_vdec: <decoderCallbackProcess:942>: *******AW_OMX_CB_PORT_CHANGE
+10-11 14:26:08.690   343   364 W omx_vdec: <__AwOmxVdecGetConfig:1640>: +++++ get display crop: top[0],left[0],width[1280],height[720]
+10-11 14:26:08.691   343   364 D omx_vdec_aw: <__anGetExtConfig:3038>: get ColorAspects: R:0, P:0, M:0, T:0
+10-11 14:26:08.692   343   364 D omx_vdec_aw: <__anGetExtConfig:3038>: get ColorAspects: R:0, P:0, M:0, T:0
+10-11 14:26:08.692   343   364 E OMXNodeInstance: getConfig(0xec05c000:allwinner.decoder.avc, ??(0x7f100007)) ERROR: UnsupportedSetting(0x80001019)  (Diablo getConfig:748)
+10-11 14:26:08.692  5636  6184 W ColorUtils: expected specified color aspects (0:0:0:0)
+10-11 14:26:08.694   343  6185 D omx_thread: <OmxThread_suspend:223>: ++++++++++suspend, drain
+10-11 14:26:08.694   343  6196 D omx_thread: <loopEntryWrapper:38>: post stop run sem drain
+10-11 14:26:08.694   343  6185 D omx_thread: <OmxThread_suspend:226>: ++++++++wait stop-run sem done: drain
+10-11 14:26:08.694   343  6185 D omx_vdec: <controlStopPort:525>: ****stop port****, portIdx:1
+10-11 14:26:08.696   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebfb0230
+10-11 14:26:08.697   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebfb01e0
+10-11 14:26:08.698   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebfb0190
+10-11 14:26:08.699   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebfb0140
+10-11 14:26:08.700   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebfb0000
+10-11 14:26:08.701   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebfb0050
+10-11 14:26:08.702   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebfb00a0
+10-11 14:26:08.702   273   376 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000008) and output flags (00000002)
+10-11 14:26:08.702   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebfb00f0
+10-11 14:26:08.703   273   376 D AudioFlinger: Client defaulted notificationFrames to 6000 for frameCount 12000
+10-11 14:26:08.706   343  6185 D omx_vdec: <controlRestartPort:589>:  restart port command. portIdx:1,m_state:OMX_StateExecuting
+10-11 14:26:08.707   343   364 W omx_vdec: <__AwOmxVdecGetExtensionIndex:1741>: GetExtensionIndex OMX.google.android.index.AndroidNativeBufferConsumerUsage, err [0x80001001].
+10-11 14:26:08.708   343   364 D omx_vdec_aw: <__anGetExtPara:2895>:  ===== get usage: 400400
+10-11 14:26:08.709   273   376 D AF::TrackHandle: OpPlayAudio: track:56 usage:1 not muted
+10-11 14:26:08.709  5636  6184 D SurfaceUtils: disconnecting from surface 0xc736cc08, reason setNativeWindowSizeFormatAndUsage
+10-11 14:26:08.711  5636  6184 D SurfaceUtils: connecting to surface 0xc736cc08, reason setNativeWindowSizeFormatAndUsage
+10-11 14:26:08.712  5636  6184 D SurfaceUtils: set up nativeWindow 0xc736cc08 for 1280x736, color 0x32315659, rotation 0, usage 0x402d00
+10-11 14:26:08.712   343   364 D omx_vdec: <AwOmxVdecPortSetDefinitioin:201>: port:>>>>>>>out,nBufferCountActual = 11, mBufferCntActual = 8
+10-11 14:26:08.712   343   364 D omx_vdec: <AwOmxVdecPortSetDefinitioin:216>: ****port, extbuf:4
+10-11 14:26:08.712   343   364 D omx_vdec: <AwOmxVdecPortSetDefinitioin:227>: PORT:>>>>>>>out, x allocate 11 buffers.
+10-11 14:26:08.714   258   293 I gralloc : alloc buffer:W:1280 H:736 S:1280 PL[1280 736] SZ:1413184 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.716   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb100
+10-11 14:26:08.717   258   293 I gralloc : alloc buffer:W:1280 H:736 S:1280 PL[1280 736] SZ:1413184 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.720   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb200
+10-11 14:26:08.721   258   293 I gralloc : alloc buffer:W:1280 H:736 S:1280 PL[1280 736] SZ:1413184 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.723   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb300
+10-11 14:26:08.724   258   293 I gralloc : alloc buffer:W:1280 H:736 S:1280 PL[1280 736] SZ:1413184 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.726   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb400
+10-11 14:26:08.727   258   293 I gralloc : alloc buffer:W:1280 H:736 S:1280 PL[1280 736] SZ:1413184 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.730   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb500
+10-11 14:26:08.730  5636  5636 D EventLogger: audioTrackInit [eventTime=4.43, mediaPos=0.00, window=0, period=0, 2,252,48000,false,false,144000]
+10-11 14:26:08.731   258   293 I gralloc : alloc buffer:W:1280 H:736 S:1280 PL[1280 736] SZ:1413184 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.733   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb600
+10-11 14:26:08.735   258   293 I gralloc : alloc buffer:W:1280 H:736 S:1280 PL[1280 736] SZ:1413184 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.737   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb700
+10-11 14:26:08.739   258   293 I gralloc : alloc buffer:W:1280 H:736 S:1280 PL[1280 736] SZ:1413184 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.743   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb800
+10-11 14:26:08.745   258   293 I gralloc : alloc buffer:W:1280 H:736 S:1280 PL[1280 736] SZ:1413184 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.748   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bb900
+10-11 14:26:08.749   258   293 I gralloc : alloc buffer:W:1280 H:736 S:1280 PL[1280 736] SZ:1413184 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.752   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bba00
+10-11 14:26:08.755   258   293 I gralloc : alloc buffer:W:1280 H:736 S:1280 PL[1280 736] SZ:1413184 fmt:842094169 if:0 af:842094169 usg:400900 fg:00000004
+10-11 14:26:08.758   343   364 D omx_vdec: <AwOmxVdecPortAddBuffer:400>: >>>>>>>out port add buffer: 0xec0bbb00
+10-11 14:26:08.767   343  6185 D omx_thread: <OmxThread_resume:250>: ++++++++++resume, drain
+10-11 14:26:08.769   343  6196 D omx_vdec_aw: <returnInitBuffer:1281>: *** call SetVideoFbmBufAddress: pVideoPicture(0xebcf5018), bufFd: 21
+10-11 14:26:08.772   343  6196 D omx_vdec_aw: <returnInitBuffer:1281>: *** call SetVideoFbmBufAddress: pVideoPicture(0xebcf5150), bufFd: 23
+10-11 14:26:08.775   343  6196 D omx_vdec_aw: <returnInitBuffer:1281>: *** call SetVideoFbmBufAddress: pVideoPicture(0xebcf5288), bufFd: 25
+10-11 14:26:08.775   343  6195 D cedarc  : <H264CheckNewFrame:2031>: here3:bDecSecondFieldError=1
+10-11 14:26:08.775   343  6195 E cedarc  : <H264CheckNewFrame:2034>: [40;31mhere1: the first slice of the frame is not 0[0m
+10-11 14:26:08.776   343  6196 D omx_vdec_aw: <returnInitBuffer:1281>: *** call SetVideoFbmBufAddress: pVideoPicture(0xebcf53c0), bufFd: 27
+10-11 14:26:08.777   343  6196 D omx_vdec_aw: <returnInitBuffer:1281>: *** call SetVideoFbmBufAddress: pVideoPicture(0xebcf54f8), bufFd: 29
+10-11 14:26:08.779   343  6196 D omx_vdec_aw: <returnInitBuffer:1281>: *** call SetVideoFbmBufAddress: pVideoPicture(0xebcf5630), bufFd: 33
+10-11 14:26:08.780   343  6196 D omx_vdec_aw: <returnInitBuffer:1281>: *** call SetVideoFbmBufAddress: pVideoPicture(0xebcf5768), bufFd: 35
+10-11 14:26:08.794  5636  6183 W MediaCodec: mapFormat: no mediaType information
+10-11 14:26:08.799  5636  5636 D EventLogger: videoSize [eventTime=4.50, mediaPos=0.00, window=0, period=0, 1280, 720]
+10-11 14:26:08.799   343  6196 D omx_vdec_aw: <returnInitBuffer:1281>: *** call SetVideoFbmBufAddress: pVideoPicture(0xebcf58a0), bufFd: 37
+10-11 14:26:08.807  5636  5636 D EventLogger: renderedFirstFrame [eventTime=4.51, mediaPos=0.00, window=0, period=0, Surface(name=null)/@0x2fb08cc]
+10-11 14:26:08.823   250   250 I EffectsFactory: EffectCreate() create_effect
+10-11 14:26:08.837   273   388 E EffectHalHidl: Buffer provider callbacks are not supported
+10-11 14:26:08.855  5636  5636 D EventLogger: state [eventTime=4.56, mediaPos=0.02, window=0, period=0, READY]
+10-11 14:26:08.861   449   756 D GPIO    : setFD655 14261
+10-11 14:26:08.866   250  6159 D audio_hw_primary: start_output_stream  stream:0xef88e000 out->format : 0x00000000
+10-11 14:26:08.867   250  6159 V audio_hw_primary: start_output_stream, line: 1515
+10-11 14:26:08.867   250  6159 V audio_hw_primary: use AUDIO_CODEC to playback audio
+10-11 14:26:08.867   250  6159 D audio_route: Apply path: media-speaker-headphones
+10-11 14:26:08.867   250  6159 D audio_route: Apply path: media-headset-mic
+10-11 14:26:08.867   250  6159 D audio_hw_primary: open card=1, port=0
+10-11 14:26:08.867   250  6159 D audio_hw_primary: config:2 44100 960 2 0 5760 1 0
+10-11 14:26:08.867   250  6159 D audio_hw_primary: set_raw_flag(card=1, raw_flag=1)
+10-11 14:26:08.868   250  6159 V audio_hw_primary: do not use out resampler
+10-11 14:26:08.868   250  6159 V audio_hw_primary: use AUDIO_HDMI to playback audio
+10-11 14:26:08.868   250  6159 D audio_hw_primary: open card=4, port=0
+10-11 14:26:08.868   250  6159 D audio_hw_primary: config:2 44100 960 2 0 5760 1 0
+10-11 14:26:08.868   250  6159 D audio_hw_primary: set_raw_flag(card=4, raw_flag=1)
+10-11 14:26:08.870   250  6159 D audio_hw_primary: set_raw_flag control_name = hdmi audio format Function)
+10-11 14:26:08.871   250  6159 V audio_hw_primary: do not use out resampler
+10-11 14:26:08.875  5636  5636 D EventLogger: isPlaying [eventTime=4.58, mediaPos=0.02, window=0, period=0, true]
+10-11 14:26:08.900   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:3686400 fmt:1 if:0 af:1 usg:20000b00 fg:00000004
+10-11 14:26:09.022   273   388 D AudioFlinger: mixer(0xf6ec9140) throttle end: throttle time(4)
+10-11 14:26:09.862   449   756 D GPIO    : setFD655 14261
+10-11 14:26:10.863   449   756 D GPIO    : setFD655 14261
+10-11 14:26:11.863   449   756 D GPIO    : setFD655 14261
+10-11 14:26:12.864   449   756 D GPIO    : setFD655 14261
+10-11 14:26:13.041   343  6196 D omx_vdec_aw: <returnInitBuffer:1281>: *** call SetVideoFbmBufAddress: pVideoPicture(0xebcf59d8), bufFd: 39
+10-11 14:26:13.071   343  6196 D omx_vdec_aw: <returnInitBuffer:1281>: *** call SetVideoFbmBufAddress: pVideoPicture(0xebcf5b10), bufFd: 41
+10-11 14:26:13.123   343  6196 D omx_vdec_aw: <returnInitBuffer:1281>: *** call SetVideoFbmBufAddress: pVideoPicture(0xebcf5c48), bufFd: 43
+10-11 14:26:13.127   343  6195 D cedarc  : <H264SortDisplayFrameOrder:1979>: diff pts of 10 frames:440000, frame=20
+10-11 14:26:13.625   350   764 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+10-11 14:26:13.862   449   756 D GPIO    : setFD655 14261
+10-11 14:26:13.961   350  6190 D BufferPoolAccessor2.0: bufferpool2 0xe92e0cd8 : 4(49152 size) total buffers - 2(24576 size) used buffers - 250/254 (recycle/alloc) - 4/253 (fetch/transfer)
+10-11 14:26:14.059  5636  6189 D BufferPoolAccessor2.0: bufferpool2 0xf25cb558 : 5(40960 size) total buffers - 1(8192 size) used buffers - 258/263 (recycle/alloc) - 5/262 (fetch/transfer)
+10-11 14:26:14.268   754   767 I rkstack.proces: Background concurrent copying GC freed 54091(2055KB) AllocSpace objects, 88(3200KB) LOS objects, 49% free, 3420KB/6841KB, paused 119us total 114.611ms
+10-11 14:26:14.625  5636  6140 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+10-11 14:26:14.862   449   756 D GPIO    : setFD655 14261
+10-11 14:26:15.864   449   756 D GPIO    : setFD655 14261
+10-11 14:26:16.864   449   756 D GPIO    : setFD655 14261
+10-11 14:26:17.864   449   756 D GPIO    : setFD655 14261
+10-11 14:26:18.865   449   756 D GPIO    : setFD655 14261
+10-11 14:26:19.119   350  6190 D BufferPoolAccessor2.0: bufferpool2 0xe92e0cd8 : 4(49152 size) total buffers - 1(12288 size) used buffers - 492/496 (recycle/alloc) - 4/495 (fetch/transfer)
+10-11 14:26:19.317  5636  6189 D BufferPoolAccessor2.0: bufferpool2 0xf25cb558 : 5(40960 size) total buffers - 4(32768 size) used buffers - 507/512 (recycle/alloc) - 5/509 (fetch/transfer)
+10-11 14:26:19.864   449   756 D GPIO    : setFD655 14261
+10-11 14:26:20.864   449   756 D GPIO    : setFD655 14261
+10-11 14:26:21.865   449   756 D GPIO    : setFD655 14261
+10-11 14:26:22.866   449   756 D GPIO    : setFD655 14261
+10-11 14:26:23.866   449   756 D GPIO    : setFD655 14261
+10-11 14:26:24.628   350  6190 D BufferPoolAccessor2.0: bufferpool2 0xe92e0cd8 : 4(49152 size) total buffers - 1(12288 size) used buffers - 750/754 (recycle/alloc) - 4/753 (fetch/transfer)
+10-11 14:26:24.731  5636  6189 D BufferPoolAccessor2.0: bufferpool2 0xf25cb558 : 5(40960 size) total buffers - 1(8192 size) used buffers - 758/763 (recycle/alloc) - 5/762 (fetch/transfer)
+10-11 14:26:24.866   449   756 D GPIO    : setFD655 14261
+10-11 14:26:25.866   449   756 D GPIO    : setFD655 14261
+10-11 14:26:26.277   449   569 D TvWindowManager: key event key = KEYCODE_BACK
+10-11 14:26:26.277   449   569 D WindowManager: interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=22000000
+10-11 14:26:26.280   449   568 D GpioService: mFlickerEnable = true
+10-11 14:26:26.280   449   568 D WindowManager: interceptKeyTi keyCode=4 down=true repeatCount=0 keyguardOn=false canceled=false
+10-11 14:26:26.331   449   449 D GPIO    : setNormalLedOn true
+10-11 14:26:26.333   449   449 D GPIO    : setStandbyLedOn false
+10-11 14:26:26.385   449   449 D GPIO    : setNormalLedOn false
+10-11 14:26:26.389   449   449 D GPIO    : setStandbyLedOn false
+10-11 14:26:26.427   449   568 D GpioService: mFlickerEnable = true
+10-11 14:26:26.427   449   568 D WindowManager: interceptKeyTi keyCode=4 down=true repeatCount=0 keyguardOn=false canceled=false
+10-11 14:26:26.477   449   449 D GPIO    : setNormalLedOn true
+10-11 14:26:26.479   449   449 D GPIO    : setStandbyLedOn false
+10-11 14:26:26.491   449   569 D TvWindowManager: key event key = KEYCODE_BACK
+10-11 14:26:26.491   449   569 D WindowManager: interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=22000000
+10-11 14:26:26.498   449   568 D WindowManager: interceptKeyTi keyCode=4 down=false repeatCount=0 keyguardOn=false canceled=false
+10-11 14:26:26.514   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:3686400 fmt:1 if:0 af:1 usg:b66 fg:00000004
+10-11 14:26:26.536   449   449 D GPIO    : setNormalLedOn false
+10-11 14:26:26.539   449   449 D GPIO    : setStandbyLedOn false
+10-11 14:26:26.589   449   449 D GPIO    : setNormalLedOn true
+10-11 14:26:26.593   449   449 D GPIO    : setStandbyLedOn false
+10-11 14:26:26.686   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:3686400 fmt:1 if:0 af:1 usg:20000b00 fg:00000004
+10-11 14:26:26.689   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:3686400 fmt:1 if:0 af:1 usg:20000b00 fg:00000004
+10-11 14:26:26.739   258   293 I gralloc : alloc buffer:W:1280 H:720 S:1280 PL[1280 720] SZ:3686400 fmt:1 if:0 af:1 usg:20000b00 fg:00000004
+10-11 14:26:26.742   273   388 D AudioFlinger: mixer(0xf6ec9140) throttle end: throttle time(1)
+10-11 14:26:26.747   656   656 D TvPipController: onTaskStackChanged()
+10-11 14:26:26.856   449   493 I ActivityTaskManager:  check home wait onWindowsDrawn  
+10-11 14:26:26.870   449   756 D GPIO    : setFD655 14261
+10-11 14:26:26.893   449   492 W ProcessStats: Tracking association SourceState{8635304 com.qstar.application/10101 BTopFgs #5106} whose proc state 2 is better than process ProcessState{8dd69a9 com.qstar.apps.ota/1000 pkg=com.qstar.apps.ota} proc state 3 (4 skipped)
+10-11 14:26:26.945   966   966 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3466 
+10-11 14:26:26.946   966   966 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():2045 
+10-11 14:26:26.961   966   966 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():38 Notify device unlocked.
+10-11 14:26:27.307  5636  6183 D SurfaceUtils: connecting to surface 0xc72a1c08, reason connectToSurface
+10-11 14:26:27.307  5636  6183 I MediaCodec: [OMX.allwinner.video.decoder.avc] setting surface generation to 5771268
+10-11 14:26:27.307  5636  6183 D SurfaceUtils: disconnecting from surface 0xc72a1c08, reason connectToSurface(reconnect)
+10-11 14:26:27.307  5636  6183 D SurfaceUtils: connecting to surface 0xc72a1c08, reason connectToSurface(reconnect)
+10-11 14:26:27.310   343   343 W omx_vdec: <__AwOmxVdecGetExtensionIndex:1741>: GetExtensionIndex OMX.google.android.index.AndroidNativeBufferConsumerUsage, err [0x80001001].
+10-11 14:26:27.310   343   343 D omx_vdec_aw: <__anGetExtPara:2895>:  ===== get usage: 400400
+10-11 14:26:27.311  5636  6184 D SurfaceUtils: disconnecting from surface 0xc72a1c08, reason setNativeWindowSizeFormatAndUsage
+10-11 14:26:27.311  5636  6184 D SurfaceUtils: connecting to surface 0xc72a1c08, reason setNativeWindowSizeFormatAndUsage
+10-11 14:26:27.311  5636  6184 D SurfaceUtils: set up nativeWindow 0xc72a1c08 for 1280x736, color 0x32315659, rotation 0, usage 0x402d00
+10-11 14:26:27.312  5636  6183 D SurfaceUtils: disconnecting from surface 0xc736cc08, reason disconnectFromSurface
+10-11 14:26:27.312  5636  6183 E Surface : freeAllBuffers: 7 buffers were freed while being dequeued!
+10-11 14:26:27.321  5636  5636 D EventLogger: surfaceSize [eventTime=23.02, mediaPos=18.34, window=0, period=0, 0, 0]
+10-11 14:26:27.368  5636  5636 I ExoPlayerImpl: Release a3214be [AndroidXMedia3/1.4.1] [apollo-p7, USN Android, Coolech, 31] [media3.common, media3.database, media3.datasource.cronet, media3.datasource, media3.ui, media3.exoplayer, media3.decoder, media3.extractor]
+10-11 14:26:27.371   449  1431 I MediaFocusControl: abandonAudioFocus() from uid/pid 10105/5636 clientId=android.media.AudioManager@715a2bcandroidx.media3.exoplayer.AudioFocusManager$AudioFocusListener@f1ce46c
+10-11 14:26:27.373   343  6185 D omx_thread: <OmxThread_suspend:223>: ++++++++++suspend, drain
+10-11 14:26:27.375   343  6196 D omx_thread: <loopEntryWrapper:38>: post stop run sem drain
+10-11 14:26:27.375   343  6185 D omx_thread: <OmxThread_suspend:226>: ++++++++wait stop-run sem done: drain
+10-11 14:26:27.375   343  6185 D omx_thread: <OmxThread_suspend:223>: ++++++++++suspend, decode
+10-11 14:26:27.376   343  6195 D omx_thread: <loopEntryWrapper:38>: post stop run sem decode
+10-11 14:26:27.376   343  6185 D omx_thread: <OmxThread_suspend:226>: ++++++++wait stop-run sem done: decode
+10-11 14:26:27.376   343  6185 D omx_thread: <OmxThread_suspend:223>: ++++++++++suspend, submit
+10-11 14:26:27.376   343  6194 D omx_thread: <loopEntryWrapper:38>: post stop run sem submit
+10-11 14:26:27.376   343  6185 D omx_thread: <OmxThread_suspend:226>: ++++++++wait stop-run sem done: submit
+10-11 14:26:27.376   343  6185 D omx_vdec: <controlFlush:483>:  flush command, portIdx:4294967295
+10-11 14:26:27.376   343  6185 D omx_vdec_aw: <__anFlush:3453>: decoder flush
+10-11 14:26:27.377   343  6185 D cedarc  : <SbmFrameReset:594>: ** wait for reset sem
+10-11 14:26:27.379   343  6193 D cedarc  : <ProcessThread:1637>: *** post reset sem
+10-11 14:26:27.381   343  6185 D cedarc  : <SbmFrameReset:596>: ** wait for reset sem ok
+10-11 14:26:27.381   343  6185 D cedarc  : <SbmFrameReset:601>: SbmFrameReset finish
+10-11 14:26:27.381   343  6185 W omx_vdec_aw: <standbyOutBufferArr:2810>: ** return pic owned by render,i[0], pHeadBufInfo[0xebe58700], pPic[0xebcf5018]
+10-11 14:26:27.382   343  6185 W omx_vdec_aw: <standbyOutBufferArr:2810>: ** return pic owned by render,i[1], pHeadBufInfo[0xebe58750], pPic[0xebcf5150]
+10-11 14:26:27.382   343  6185 W omx_vdec_aw: <standbyOutBufferArr:2810>: ** return pic owned by render,i[2], pHeadBufInfo[0xebe587a0], pPic[0xebcf5288]
+10-11 14:26:27.382   343  6185 W omx_vdec_aw: <standbyOutBufferArr:2810>: ** return pic owned by render,i[3], pHeadBufInfo[0xebe587f0], pPic[0xebcf53c0]
+10-11 14:26:27.382   343  6185 W omx_vdec_aw: <standbyOutBufferArr:2810>: ** return pic owned by render,i[4], pHeadBufInfo[0xebe58840], pPic[0xebcf54f8]
+10-11 14:26:27.382   343  6185 D omx_vdec_aw: <standbyOutBufferArr:2795>: ** fillBufferDone owned by decoer i[5],pHeadBufInfo[0xebe58890],pPic[0xebcf5630]
+10-11 14:26:27.382   343  6185 W omx_vdec_aw: <standbyOutBufferArr:2810>: ** return pic owned by render,i[6], pHeadBufInfo[0xebe588e0], pPic[0xebcf5768]
+10-11 14:26:27.382   343  6185 W omx_vdec_aw: <standbyOutBufferArr:2810>: ** return pic owned by render,i[7], pHeadBufInfo[0xebe58930], pPic[0xebcf58a0]
+10-11 14:26:27.382   343  6185 W omx_vdec_aw: <standbyOutBufferArr:2810>: ** return pic owned by render,i[8], pHeadBufInfo[0xebe58980], pPic[0xebcf59d8]
+10-11 14:26:27.382   343  6185 W omx_vdec_aw: <standbyOutBufferArr:2810>: ** return pic owned by render,i[9], pHeadBufInfo[0xebe589d0], pPic[0xebcf5b10]
+10-11 14:26:27.382   343  6185 W omx_vdec_aw: <standbyOutBufferArr:2810>: ** return pic owned by render,i[10], pHeadBufInfo[0xebe58a20], pPic[0xebcf5c48]
+10-11 14:26:27.382   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.382   343  6185 E cedarc  : [0m
+10-11 14:26:27.382   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.382   343  6185 E cedarc  : [0m
+10-11 14:26:27.383   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.383   343  6185 E cedarc  : [0m
+10-11 14:26:27.383   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.383   343  6185 E cedarc  : [0m
+10-11 14:26:27.383   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.383   343  6185 E cedarc  : [0m
+10-11 14:26:27.383   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.383   343  6185 E cedarc  : [0m
+10-11 14:26:27.383   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.383   343  6185 E cedarc  : [0m
+10-11 14:26:27.384   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.384   343  6185 E cedarc  : [0m
+10-11 14:26:27.384   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.384   343  6185 E cedarc  : [0m
+10-11 14:26:27.384   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.384   343  6185 E cedarc  : [0m
+10-11 14:26:27.384   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.384   343  6185 E cedarc  : [0m
+10-11 14:26:27.384   343  6185 D fbm.c   : <FbmNewDispRelease:1974>: FbmDequeue from pEmptyBufferQueue is null!!!!!
+10-11 14:26:27.384   343  6185 D omx_thread: <OmxThread_resume:250>: ++++++++++resume, submit
+10-11 14:26:27.384   343  6185 D omx_thread: <OmxThread_resume:250>: ++++++++++resume, decode
+10-11 14:26:27.384   343  6185 D omx_thread: <OmxThread_resume:250>: ++++++++++resume, drain
+10-11 14:26:27.385  5636  6180 D MediaCodec: keep callback message for reclaim
+10-11 14:26:27.394  5636  6189 D CCodecBuffers: [c2.android.aac.decoder#762:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+10-11 14:26:27.399  5636  6180 D MediaCodec: keep callback message for reclaim
+10-11 14:26:27.402  5636  6189 I CCodecConfig: query failed after returning 19 values (BAD_INDEX)
+10-11 14:26:27.404  5636  6189 W Codec2Client: query -- param skipped: index = 1342179345.
+10-11 14:26:27.404  5636  6189 W Codec2Client: query -- param skipped: index = 2415921170.
+10-11 14:26:27.404  5636  6189 W Codec2Client: query -- param skipped: index = 1610614798.
+10-11 14:26:27.409   343  6185 D omx_vdec: <controlSetState:438>: current state:OMX_StateExecuting, target state:OMX_StateIdle
+10-11 14:26:27.409   343  6185 D omx_thread: <OmxThread_suspend:223>: ++++++++++suspend, drain
+10-11 14:26:27.410   343  6196 D omx_thread: <loopEntryWrapper:38>: post stop run sem drain
+10-11 14:26:27.410   343  6185 D omx_thread: <OmxThread_suspend:226>: ++++++++wait stop-run sem done: drain
+10-11 14:26:27.410   343  6185 D omx_thread: <OmxThread_suspend:223>: ++++++++++suspend, decode
+10-11 14:26:27.411   343  6195 D omx_thread: <loopEntryWrapper:38>: post stop run sem decode
+10-11 14:26:27.411   343  6185 D omx_thread: <OmxThread_suspend:226>: ++++++++wait stop-run sem done: decode
+10-11 14:26:27.411   343  6185 D omx_thread: <OmxThread_suspend:223>: ++++++++++suspend, submit
+10-11 14:26:27.412   343  6194 D omx_thread: <loopEntryWrapper:38>: post stop run sem submit
+10-11 14:26:27.412   343  6185 D omx_thread: <OmxThread_suspend:226>: ++++++++wait stop-run sem done: submit
+10-11 14:26:27.412   343  6185 D omx_vdec_aw: <standbyOutBufferArr:2795>: ** fillBufferDone owned by decoer i[0],pHeadBufInfo[0xebe58700],pPic[0xebcf5630]
+10-11 14:26:27.412   343  6185 D omx_vdec_aw: <standbyOutBufferArr:2795>: ** fillBufferDone owned by decoer i[1],pHeadBufInfo[0xebe58890],pPic[0xebcf5018]
+10-11 14:26:27.412   343  6185 D omx_vdec_aw: <standbyOutBufferArr:2795>: ** fillBufferDone owned by decoer i[2],pHeadBufInfo[0xebe588e0],pPic[0xebcf5150]
+10-11 14:26:27.412   343  6185 D omx_vdec_aw: <standbyOutBufferArr:2795>: ** fillBufferDone owned by decoer i[3],pHeadBufInfo[0xebe58930],pPic[0xebcf5288]
+10-11 14:26:27.412   343  6185 D omx_vdec_aw: <standbyOutBufferArr:2795>: ** fillBufferDone owned by decoer i[4],pHeadBufInfo[0xebe58980],pPic[0xebcf53c0]
+10-11 14:26:27.412   343  6185 D omx_vdec_aw: <standbyOutBufferArr:2795>: ** fillBufferDone owned by decoer i[5],pHeadBufInfo[0xebe589d0],pPic[0xebcf54f8]
+10-11 14:26:27.412   343  6185 D omx_vdec_aw: <standbyOutBufferArr:2795>: ** fillBufferDone owned by decoer i[6],pHeadBufInfo[0xebe58a20],pPic[0xebcf5768]
+10-11 14:26:27.412   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.412   343  6185 E cedarc  : [0m
+10-11 14:26:27.412   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.412   343  6185 E cedarc  : [0m
+10-11 14:26:27.412   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.412   343  6185 E cedarc  : [0m
+10-11 14:26:27.412   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.412   343  6185 E cedarc  : [0m
+10-11 14:26:27.412   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.412   343  6185 E cedarc  : [0m
+10-11 14:26:27.412   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.412   343  6185 E cedarc  : [0m
+10-11 14:26:27.413   343  6185 E cedarc  : <CdcIonMunmap:297>: [40;31mCdcIonUnmap failed: Invalid argument
+10-11 14:26:27.413   343  6185 E cedarc  : [0m
+10-11 14:26:27.413   343  6185 D omx_vdec_aw: <__anClose:3511>: decoder close
+10-11 14:26:27.413   343  6185 I cedarc  : <DestroyVideoDecoder:402>: DestroyVideoDecoder, pDecoder=0xebe58000
+10-11 14:26:27.421   343  6193 D cedarc  : <ProcessThread:1705>:  exit sbm thread 
+10-11 14:26:27.424   343  6185 D ionAlloc: <ion_alloc_close:281>: pid: 343, release g_context = 0xec1691c0 
+10-11 14:26:27.424   343  6185 D ionAlloc: <ion_alloc_close:328>: ion_alloc_close ok
+10-11 14:26:27.424   343  6185 I cedarc  : <VeRelease:1602>: not malloc locks
+10-11 14:26:27.424   343  6185 D cedarc  : <VeRelease:1624>: ve release ok
+10-11 14:26:27.424   343  6185 D omx_vdec: <doStateWaitforResources2Idle:648>: bEnabled[1],[1],bPopulated[1],[1]
+10-11 14:26:27.424   343  6185 D omx_vdec: <controlSetState:459>: Transit current state:OMX_StateExecuting --> target state:OMX_StateIdle --OK!
+10-11 14:26:27.425   343  6185 D omx_vdec: <controlSetState:438>: current state:OMX_StateIdle, target state:OMX_StateLoaded
+10-11 14:26:27.426   343   343 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:<<<<<<<<in, pBufferHdr:0xec17f190
+10-11 14:26:27.427   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:<<<<<<<<in, pBufferHdr:0xec17f140
+10-11 14:26:27.428   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebe58a20
+10-11 14:26:27.429   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebe589d0
+10-11 14:26:27.430   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebe58980
+10-11 14:26:27.430   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebe58930
+10-11 14:26:27.431   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebe588e0
+10-11 14:26:27.432   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebe58890
+10-11 14:26:27.433   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebe58840
+10-11 14:26:27.433   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebe587f0
+10-11 14:26:27.434   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebe587a0
+10-11 14:26:27.435   343   364 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebe58750
+10-11 14:26:27.435   343   343 D omx_vdec: <AwOmxVdecPortFreeBuffer:462>: port:>>>>>>>out, pBufferHdr:0xebe58700
+10-11 14:26:27.436   343  6185 D omx_vdec: <controlSetState:459>: Transit current state:OMX_StateIdle --> target state:OMX_StateLoaded --OK!
+10-11 14:26:27.437  5636  6183 D SurfaceUtils: disconnecting from surface 0xc72a1c08, reason disconnectFromSurface
+10-11 14:26:27.446   343   343 D cedarc  : <AwOmxComponentDeinit:59>: OMXCORE: aw_omx_component_deinit ec05c000
+10-11 14:26:27.446   343   343 D omx_vdec: <__AwOmxVdecComponentDeinit:1951>: Omx Vdec Component Deinit begin
+10-11 14:26:27.446   343  6185 D omx_vdec: <onMessageReceived:887>: ********quit************
+10-11 14:26:27.446   343  6185 D omx_sem : <OmxTryPostSem:122>: post sem:flushSem
+10-11 14:26:27.446   343  6196 D omx_thread: <loopEntryWrapper:72>: exit thread drain truely!!!
+10-11 14:26:27.447   343  6195 D omx_thread: <loopEntryWrapper:72>: exit thread decode truely!!!
+10-11 14:26:27.447   343  6194 D omx_thread: <loopEntryWrapper:72>: exit thread submit truely!!!
+10-11 14:26:27.448   343   343 D omx_vdec: <__AwOmxVdecComponentDeinit:1957>: threads exit!
+10-11 14:26:27.449   343   343 D omx_vdec: <__AwOmxVdecDestroy:2019>: ++++++++++++++++++++++omx end++++++++++++++++++
+10-11 14:26:27.449   343   343 D cedarc  : <checkLibUnload:189>:  Unloading the dynamic library for OMX.allwinner.video.decoder.avc
+10-11 14:26:27.463  5636  6189 D CCodecBufferChannel: [c2.android.aac.decoder#762] MediaCodec discarded an unknown buffer
+10-11 14:26:27.463  5636  6189 D CCodecBufferChannel: [c2.android.aac.decoder#762] MediaCodec discarded an unknown buffer
+10-11 14:26:27.464  5636  6189 D CCodecBufferChannel: [c2.android.aac.decoder#762] MediaCodec discarded an unknown buffer
+10-11 14:26:27.465  5636  6189 D CCodecBufferChannel: [c2.android.aac.decoder#762] MediaCodec discarded an unknown buffer
+10-11 14:26:27.470  5636  6189 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-11 14:26:27.470   350   827 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-11 14:26:27.473   350   827 V C2Store : in ~ComponentModule
+10-11 14:26:27.474   350   827 V C2Store : unloading dll
+10-11 14:26:27.477  5636  5636 W ExoPlayerImplInternal: Ignoring messages sent after release.
+10-11 14:26:27.505   449  3687 W InputManager-JNI: Input channel object 'f3ec046 androidx.media3.demo.main/androidx.media3.demo.main.PlayerActivity (client)' was disposed without first being removed with the input manager!
+10-11 14:26:27.523  5636  5636 D EventLogger: videoDisabled [eventTime=23.23, mediaPos=18.40, window=0, period=0]
+10-11 14:26:27.527  5636  5636 D EventLogger: audioDisabled [eventTime=23.23, mediaPos=18.40, window=0, period=0]
+10-11 14:26:27.530  5636  5636 D EventLogger: videoDecoderReleased [eventTime=23.24, mediaPos=18.40, window=0, period=0, OMX.allwinner.video.decoder.avc]
+10-11 14:26:27.533  5636  5636 D EventLogger: audioDecoderReleased [eventTime=23.24, mediaPos=18.40, window=0, period=0, c2.android.aac.decoder]
+10-11 14:26:27.870   449   756 D GPIO    : setFD655 14261
+10-11 14:26:28.871   449   756 D GPIO    : setFD655 14261
+10-11 14:26:29.872   449   756 D GPIO    : setFD655 14261
+10-11 14:26:30.388   250   250 D audio_hw_primary: out_standby
+10-11 14:26:30.556   449  1229 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+10-11 14:26:30.872   449   756 D GPIO    : setFD655 14261
+10-11 14:26:31.871   449   756 D GPIO    : setFD655 14261
