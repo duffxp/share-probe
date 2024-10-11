@@ -6,8 +6,8 @@ ro.product.system.model]: [apollo_p7]
 [ro.soc.model]: [H618]
 ```
 
-Tested by:  Gabriel Quintana
-Date:       10/11/24
+- Tested by:  Gabriel Quintana
+- Date:       10/11/24
 
 ---
 ### Description
