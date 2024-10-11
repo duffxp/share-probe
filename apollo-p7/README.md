@@ -6,11 +6,13 @@ ro.product.system.model]: [apollo_p7]
 [ro.soc.model]: [H618]
 ```
 
+You can download all the files and the videos demonstrating the behaviors in the link: https://we.tl/t-53dMUTDTy9
+
 ---
 ### Description
 
 - We have 3x TS file with different audio codecs: `ac3`, `mp2` and `aac`;
-- For this test, we used AndroidX Media3 by Google, simulating exactly our scenario (we use this same AndroidX project in our applications);
+- For this test, we used [AndroidX Media3 by Google](https://github.com/androidx/media), simulating exactly our scenario (we use this same AndroidX project in our applications);
 - For test this source in multicast, we used `FFmpeg` with this command line:
 ```
 ffmpeg -re -stream_loop -1 -i 'bbb-aac.mp4' -c copy -f mpegts 'udp:224.10.10.1:1234?localaddr=192.168.115.254'
