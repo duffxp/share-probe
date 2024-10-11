@@ -31,4 +31,4 @@ ffmpeg -re -stream_loop -1 -i 'bbb-aac.mp4' -c copy -f mpegts 'udp:224.10.10.1:1
 
 About the test with `aac` codec, the video looks strange at times, displaying green composites and frame breaks, apparently.
 
-Please, check it out in [video-sample-a](video-sample-a.jpg), [video-sample-b](video-sample-b.jpg) and [video-sample-c](video-sample-c.jpg)
+Please, check it out in [video-sample-a](video-sample-a.jpeg), [video-sample-b](video-sample-b.jpg) and [video-sample-c](video-sample-c.jpg)
